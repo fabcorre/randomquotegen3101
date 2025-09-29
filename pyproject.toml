@@ -30,7 +30,7 @@ docs = [
     "sphinx (>=8.2.3,<9.0.0)"
 ]
 
-[tool.poetry.packages]
+[tool.poetry]
 packages = [
   { include = "randomquotegen" }
 ]
