@@ -23,5 +23,14 @@ dev = [
     "isort (>=6.0.1,<7.0.0)",
     "flake8 (>=7.3.0,<8.0.0)",
     "bandit (>=1.8.6,<2.0.0)",
-    "safety (>=3.6.2,<4.0.0)"
+    "safety (>=3.6.2,<4.0.0)",
+    "directory-tree (>=1.0.0,<2.0.0)"
+]
+docs = [
+    "sphinx (>=8.2.3,<9.0.0)"
+]
+
+[tool.poetry.packages]
+packages = [
+  { include = "randomquotegen" }
 ]
